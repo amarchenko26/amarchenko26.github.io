@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="shortcut icon" type="image/png" href="favicon_m.png">
+			{% seo %}
+		</head>
+		<body>
+				<div class="topnav">
+					<a href="/" style="font-size:34px; font-family:Noto Sans, sans-serif; font-weight: 400; color: black">Anya Marchenko</a>
+				  <div class="topnav-right">
+					<a href="/" style="color: black">Home</a>
+					<a href="/cv" style="color: black">CV</a></li>
+          <a href="/about" style="color: black">About Me</a>
+					<a href="/research" style="color: black">Research</a>
+					<a href="/writing" style="color: black">Writing</a>
+				  </div>
+				</div>	
+			<hr>
+
+			<div class="container">
+			
+			{{ content }}
+	
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:marchenko@brown.edu">email</a></li>
+	        		<li><a href="https://www.linkedin.com/in/anya-v-marchenko-27b42b35/" target="_blank">LinkedIn</a></li>
+				<li><a href="https://twitter.com/AnyaMarchenko6" target="_blank">Twitter</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
