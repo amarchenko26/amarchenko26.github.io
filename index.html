@@ -1,108 +1,50 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Anya Marchenko</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <style>
-      /* Main layout styling */
-      body {
-        font-family: Arial, sans-serif;
-        color: #333;
-        margin: 0;
-        padding: 0;
-      }
-      
-      /* Wrapper for the main content */
-      .wrapper {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-      
-      /* Two-column layout */
-      .content-wrapper {
-        display: flex;
-        align-items: flex-start;
-      }
-
-      /* Left column (image) */
-      .left-column {
-        flex: 0 0 150px;
-        margin-right: 20px;
-      }
-
-      /* Right column (text content) */
-      .right-column {
-        flex: 1;
-      }
-
-      /* Styling for the image */
       .headshot {
-        width: 100%;
+        width: 150px;
         height: auto;
         border-radius: 50%;
+        margin-bottom: 20px;
       }
-
-      /* Style for the horizontal line */
-      .crimson-line {
-        border: 0;
-        height: 2px;
-        background-color: #2596be;
-        margin: 10px 0;
-      }
-
-      /* Style for headings */
-      h1, h2 {
-        color: #2596be;
-        margin: 0;
-      }
-
-      /* Toggle button for abstracts */
       .toggle-button {
-        color: #2596be;
+        color: #39c;
         cursor: pointer;
         text-decoration: underline;
       }
-
-      /* Abstract content */
       .abstract {
         display: none;
         margin-top: 5px;
-        font-size: 16px;
+        font-size: 14px;
         color: #555;
       }
     </style>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Anya Marchenko</title>
   </head>
-  
   <body>
     <div class="wrapper">
       <header>
-        <div class="content-wrapper">
-          <!-- Left Column: Image -->
-          <div class="left-column">
-            <img src="assets/headshot.jpg" alt="Anya Marchenko" class="headshot">
-          </div>
-
-          <!-- Right Column: Text Content -->
-          <div class="right-column">
-            <h1>Anya Marchenko</h1>
-            <hr class="crimson-line">
-            <p><b>Email:</b> marchenko [at] brown.edu</p>
-            <hr class="crimson-line">
-          </div>
-        </div>
+        <img src="assets/headshot.jpg" alt="Anya Marchenko" class="headshot">
+        <h1>Anya Marchenko</h1>
+        <p>Economics PhD Student<br>Brown University</p>
+        <p><b>Email:</b> marchenko [at] brown.edu</p>
       </header>
-
-      <section class="right-column">
+      <section>
         <p>Welcome! I am a third-year PhD student in Economics at <a href="https://economics.brown.edu/" target="_blank">Brown University</a>. I received my BA in Economics with Honors from the <a href="https://economics.uchicago.edu/" target="_blank">University of Chicago</a> and am supported by the National Science Foundation Graduate Research Fellowship.</p>
         
         <p>My research interests lie in applied microeconomics, including comparative development and animal agriculture.</p>
         
         <p>During 2023 — 2024, I served as the President of the Economics Graduate Student Association at Brown.</p>
-        
-        <hr class="crimson-line">
         
         <h2>Working Papers</h2>
         
@@ -124,28 +66,25 @@
           | <a href="path/to/paper2.pdf">PDF</a>
         </p>
         
-        <hr class="crimson-line">
-        
         <h2>Publications</h2>
-        <p><a href="https://doi.org/your-publication-link"><strong>Publication Title</strong></a> <br> (Co-authors) <br> <em>Journal Name</em>, Year <br> <a href="assets/airbnb.pdf">PDF</a></p>
-        
-        <hr class="crimson-line">
+        <p><a href="https://doi.org/your-publication-link"><strong>Publication Title</strong></a>
+        <br>(Co-authors)
+        <br><em>Journal Name</em>, Year
+        <br><a href="assets/airbnb.pdf">PDF</a></p>
         
         <h2>Teaching</h2>
-        <p>Syllabus for my 2023 course on Applied Microeconomics <br> <a href="path/to/syllabus.pdf">PDF</a></p>
-        
-        <hr class="crimson-line">
+        <p>Syllabus for my 2023 course on Applied Microeconomics
+        <br><a href="path/to/syllabus.pdf">PDF</a></p>
         
         <h2>Other</h2>
-        <p><strong>Resource Title</strong> <br> Description or link to data/resources.</p>
+        <p><strong>Resource Title</strong>
+        <br>Description or link to data/resources.</p>
       </section>
-
       <footer>
-        <!-- Optional footer content -->
+        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-
-    <!-- JavaScript for toggling abstracts -->
+    <script src="javascripts/scale.fix.js"></script>
     <script>
       function toggleAbstract(id) {
         var abstract = document.getElementById(id);
