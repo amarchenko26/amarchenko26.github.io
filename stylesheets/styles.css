@@ -5,16 +5,16 @@ body {
     color:#595959;
     font-weight:400;
   }
-  .paper-title {
-    color: #0066cc;
-    text-decoration: none;
-    border-bottom: 2px solid #0066cc;
-    transition: border-bottom 0.3s;
-  }
+.paper-title {
+  color: #39c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
 
-  .paper-title:hover {
-    border-bottom: 2px solid #003366;
-  }
+.paper-title:hover {
+  color: #297aa3;
+}
 
   h1, h2, h3, h4, h5, h6 {
     color:#222;
