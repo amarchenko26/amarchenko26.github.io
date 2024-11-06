@@ -6,7 +6,7 @@ body {
     font-weight:400;
   }
 .paper-title {
-  color: #39c;
+  color: #555;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
