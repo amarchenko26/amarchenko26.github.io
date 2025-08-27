@@ -12,6 +12,14 @@ body {
   transition: color 0.3s;
 }
 
+/* Section title spacing */
+section h2 {
+  /* bigger gap *before* each section title … */
+  margin-top: 48px;
+  /* …but keep the gap *after* the title modest */
+  margin-bottom: 12px;
+}
+
 .paper-title:hover {
   color: #069;  /* This matches your regular link hover color */
 }
