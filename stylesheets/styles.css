@@ -1,9 +1,9 @@
 /* Sitewide link colors */
-a { color:#39c; text-decoration:none; }
+a { color:#069; text-decoration:none; }   /* darker hover color now default */
 a:hover { color:#069; }
-a:visited { color:#39c; }
+a:visited { color:#069; }
 
-/* Paper title: just make it bold; color inherits from <a> rules */
+/* Paper title: bold, inherits color */
 a.paper-title { font-weight:700; }
 
 body {
