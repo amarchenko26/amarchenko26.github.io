@@ -4,7 +4,9 @@ a:hover { color:#069; }
 a:visited { color:#069; }
 
 /* Paper title: bold, inherits color */
-a.paper-title { font-weight:700; }
+a.paper-title { color:#069; font-weight:700; }
+a.paper-title:hover,
+a.paper-title:visited { color:#069; }
 
 body {
     background-color: #fff;
