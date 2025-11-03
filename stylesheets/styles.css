@@ -1,3 +1,11 @@
+/* Sitewide link colors */
+a { color:#39c; text-decoration:none; }
+a:hover { color:#069; }
+a:visited { color:#39c; }
+
+/* Paper title: just make it bold; color inherits from <a> rules */
+a.paper-title { font-weight:700; }
+
 body {
     background-color: #fff;
     padding:50px;
