@@ -1,3 +1,13 @@
+/* Sitewide link colors */
+a { color:#069; text-decoration:none; }   /* darker hover color now default */
+a:hover { color:#069; }
+a:visited { color:#069; }
+
+/* Paper title: bold, inherits color */
+a.paper-title { color:#069; font-weight:700; }
+a.paper-title:hover,
+a.paper-title:visited { color:#069; }
+
 body {
     background-color: #fff;
     padding:50px;
@@ -10,6 +20,14 @@ body {
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
+}
+
+/* Section title spacing */
+section h2 {
+  /* bigger gap *before* each section title … */
+  margin-top: 48px;
+  /* …but keep the gap *after* the title modest */
+  margin-bottom: 12px;
 }
 
 .paper-title:hover {
